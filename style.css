@@ -1,0 +1,60 @@
+.navmenu{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.logo-css {
+    width: 8%;
+}
+.nav-links a {
+    color: black;
+    font-size: medium;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a:hover{
+    color: rgb(108, 108, 105);
+}
+header{
+    margin: -8px;
+    border-style: ridge;
+    position: sticky;
+    top: 0%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+
+
+.fedi {    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.fedi2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-img-top{
+    width: 286px;
+    height: 190px;
+}
+.card-text {
+    width: 248px;
+    height: 195px;
+}
